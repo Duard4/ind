@@ -62,6 +62,8 @@ body {
     /*розстягнення по простору*/
     justify-content: center;
     /*вирівнювання Bздовж Ох*/
+    font-family: "Libre Caslon Display";
+
 }
 /*menu-section*/
 .menu-section {
