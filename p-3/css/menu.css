@@ -1,0 +1,90 @@
+body {
+    color: var(--color-menu);
+    font-family: "Lancelot";
+    background-color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 2.25rem;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.section {
+    padding: 120px 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+
+}
+
+.header {
+    background-color: var(--color-menu-bg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 0;
+}
+
+.header-container {
+
+    display: flex;
+    align-items: center;
+    gap: 76px;
+}
+
+.header-nav {
+    margin: 0 100px;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    gap: 552px;
+}
+
+
+.header-menu {
+    display: flex;
+    gap: 60px;
+    /*відстань між елементами */
+    flex-grow: 1;
+    /*розстягнення по простору*/
+    justify-content: center;
+    /*вирівнювання Bздовж Ох*/
+}
+/*menu-section*/
+.menu-section {
+    padding: 16px 0;
+    background-color: var(--color-menu-bg);
+    border-top: 3px solid #473581;
+
+
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 160px;
+    /* margin:0 auto 80px; */
+    position: relative;
+}
+
+
+.menu-item {
+    color: var(--color-menu);
+    font-family: var(--ftitle);
+    font-family: "Libre Caslon Display";
+    font-size: 24px;
+    font-weight: 400;
+}

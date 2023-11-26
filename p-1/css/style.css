@@ -1,0 +1,91 @@
+@import url(reset.css);
+@import url(base.css);
+@import url(menu.css);
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Libre+Caslon+Display&display=swap');
+
+/*main-section*/
+.main-section {
+    padding: 330px 0;
+    background-repeat: no-repeat;
+    background-image: url("../img/maimg.jpg");
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 128px;
+    background: linear-gradient(111deg, #B99CBF 10.42%, rgba(255, 121, 250, 0.42) 33.37%, rgba(143, 39, 252, 0.50) 69.71%, rgba(154, 152, 248, 0.45) 88.59%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    line-height: 12rem;
+    font-weight: 400;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.j-b {
+    justify-content: space-between;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.page-2 {
+    padding: 68px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(247deg, #000 7.77%, rgba(0, 0, 0, 0.00) 96.66%), url(../img/main.png);
+    background-position: center top;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.title-2 {
+    font-family: 'Lavishly Yours', cursive;
+    font-size: 64px;
+    color: #FFDBFF;
+}
+
+.t-box {
+    margin: 5% auto;
+    max-width: 50%;
+}
+
+.article-1,
+.article-2 {
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFDBFF;
+    max-width: 80%;
+    margin: 2% auto 5%;
+}
+
+.article-2 {
+    max-width: 65%;
+
+}
+
+.i-p-2 {
+    width: 600px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(270deg, #403781 -30%, #00000000), url("../img/i-p-2.png");
+    background-position: center top;
+    background-size: cover;
+}
