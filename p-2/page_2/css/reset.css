@@ -16,11 +16,10 @@
 }
 
 .link:hover{
-    color:var(--color-add-header);
+    color:var(--color-link);
     text-shadow:  0 0 1px rgb(242, 249, 115), 1px 0 0 rgb(249, 60, 208),
     0 1px 0 rgb(70, 46, 252), 0 0 1px rgb(241, 97, 97);
 }
-
 
 a, a:link, a:visited {
     text-decoration: none;
@@ -37,7 +36,13 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: inherit;
     font-weight: inherit;
 }
-ul, ul li {
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+ul li {
     list-style: none;
 }
 img {
@@ -46,6 +51,7 @@ img {
 img, svg {
     max-width: 100%;
     height: auto;
+    object-fit: cover;
 }
 address {
     font-style: normal;

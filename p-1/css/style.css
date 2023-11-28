@@ -1,7 +1,13 @@
 @import url(reset.css);
 @import url(base.css);
 @import url(menu.css);
+@import url(media.css);
+@import url(burger.css);
+
 @import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Libre+Caslon+Display&display=swap');
+li {
+    width: max-content;
+}
 
 /*main-section*/
 .main-section {
@@ -47,7 +53,7 @@
 }
 
 .page-2 {
-    padding: 68px;
+    padding: 3%;
     background-repeat: no-repeat;
     background-image: linear-gradient(247deg, #000 7.77%, rgba(0, 0, 0, 0.00) 96.66%), url(../img/main.png);
     background-position: center top;
@@ -83,7 +89,7 @@
 }
 
 .i-p-2 {
-    width: 600px;
+    width: 50%;
     background-repeat: no-repeat;
     background-image: linear-gradient(270deg, #403781 -30%, #00000000), url("../img/i-p-2.png");
     background-position: center top;

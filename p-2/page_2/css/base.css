@@ -1,0 +1,15 @@
+:root {
+    --cblack: rgba(8, 19, 39, 1);
+    --cpink: rgba(255, 219, 255, 1);
+    --color-add-header:#9C7BFE; 
+    --color-menu:#9990CE;
+    --color-link: #9C7BFE;
+    --color-text:#E3E0FF;
+    --color-menu-bg:#020105;
+    --color-addbglinear: rgba(0, 0, 0, 0.59);
+    --color-card:linear-gradient(180deg, rgba(49, 38, 26, 0.00) 55.21%, rgba(49, 38, 26, 0.71) 72.92%, var(--color-add-header)100%);
+    --color-button-hover:#CAB8BF;
+    --color-text-descr:rgba(255,219,255,0.800000011920929);
+    --ftitle: Lavishly Yours;
+    --fsize: 24px;
+}

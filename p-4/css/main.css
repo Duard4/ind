@@ -1,0 +1,121 @@
+@import url(reset.css);
+@import url(base.css);
+@import url(menu.css);
+@import url(media.css);
+@import url(burger.css);
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Libre+Caslon+Display&display=swap');
+
+body {
+  font-size: 24px;
+  background-color: #000000;
+  }
+
+.content {
+  background: linear-gradient(45deg, #3a293a 10%, #3d2044 30%, #2a1c31 50%, rgb(33, 45, 52) 70%, #412E44 90%, #362035 100%);
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.flex {
+  display: flex;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.t-box {
+  padding: 5% 0 0 5%;
+  max-width: 50%;
+  max-height: 666px;
+}
+form {
+  width: 100%;
+}
+.f-title {
+  color: rgba(255,219,255,1);
+  text-shadow: 5px 5px 5px rgba(145, 59, 144, 0.7);
+  font-family: Lavishly Yours;
+  font-size: 64px;
+}
+.f-text {
+  color: rgba(255,219,255,0.7300000190734863);
+  text-shadow: 5px 5px 5px rgba(0.34121617674827576, 0.02657650224864483, 0.7416666746139526, 0.699999988079071);
+  font-family: Libre Caslon Display;
+  font-size: 24px;
+}
+
+.f-i {
+  width: var(--img-w);
+  height: var(--img-h);
+  background: url("../images/v9_324.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-top-left-radius: 200px;
+  box-shadow: -25px 1px 50px rgba(0, 0, 0, 0.25);
+}
+
+.form-container {
+  margin: 5%;
+}
+
+.form-group {
+  margin-bottom: 5%;
+}
+
+.input-field {
+  width: 110%;
+  height: 55px;
+  background: rgba(8, 19, 39, 1);
+  border: 1px solid rgba(255, 219, 255, 1);
+  border-radius: 8px;
+  color: rgba(255, 219, 255, 1);
+  font-family: 'Libre Caslon Display', sans-serif;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.label {
+  color: rgba(255, 219, 255, 1);
+  font-family: 'Libre Caslon Display', sans-serif;
+  font-size: 18px;
+}
+
+/* Заборона виділення тексту при фокусі на полі вводу */
+.input-field:focus {
+  border-color: rgba(255, 219, 255, 1);
+}
+
+.join-button {
+  width: 30%;
+  /* Змініть розмір, якщо потрібно менше */
+  height: 40px;
+  /* Змініть розмір, якщо потрібно менше */
+  background: rgba(8, 19, 39, 1);
+  border: 1px solid rgba(255, 219, 255, 1);
+  color: rgba(255, 219, 255, 1);
+  font-family: 'Libre Caslon Display', sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+  display: block;
+  margin: 0 auto;
+  /* Центруємо кнопку */
+}
+
+.join-button:hover {
+  background-color: rgb(79, 11, 118);
+}
+
+/* Стиль для виведення повідомлення */
+.message {
+  color: #7434db;
+  /* Колір повідомлення */
+  font-family: 'Libre Caslon Display', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+  display: none;
+  /* Початково ховаємо повідомлення */
+}

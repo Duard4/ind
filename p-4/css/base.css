@@ -1,0 +1,13 @@
+:root {
+    --cblack: rgba(8, 19, 39, 1);
+    --cpink: rgba(255, 219, 255, 1);
+    --color-add-header:#9C7BFE; 
+    --color-menu:#9990CE;
+    --color-text:#E3E0FF;
+    --color-menu-bg:#020105;
+    --ftitle: Lavishly Yours;
+    --fsize: 24px;
+    --img-w: 517px;
+    --img-h: 855px;
+
+}

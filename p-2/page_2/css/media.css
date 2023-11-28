@@ -1,0 +1,261 @@
+/* Адаптивність для менюшек */
+@media (max-width: 900px) {
+    .header-menu {
+        max-width: 50% !important;
+    }
+
+    .envrdiss-title {
+        font-size: 60px !important;
+    }
+
+    .envdis-descr {
+        font-size: 22px !important;
+    }
+
+    .swiper-wrapper {
+        padding-left: 18px !important;
+        padding-right: 6px !important;
+        /* padding:15 !important;*/
+    }
+
+    .envdis-card:hover {
+        transform: scale(1.03) !important;
+    }
+
+    .carusel-button {
+        width: 32px !important;
+        height: 32px !important;
+    }
+
+    .pagination__button {
+        width: 9px !important;
+        height: 9px !important;
+    }
+}
+
+@media (max-width: 770px) {
+
+    .body,
+    .menu-item,
+    .header-menu {
+        font-size: 18px !important;
+    }
+
+    .header-nav>a {
+        max-width: 130px !important;
+    }
+
+    .envrdiss-title {
+        font-size: 56px !important;
+    }
+
+    .envdis-descr {
+        font-size: 20px !important;
+    }
+
+    .envdis-text{
+        padding-top:36px ;
+        font-size:16px !important ; 
+    }
+    .swiper-wrapper {
+        padding-left: 8px !important;
+        padding-right: 5px !important;
+        /* padding:15 !important;*/
+    }
+
+    .envdis-card {
+        height: 434px !important;
+        width: 273.2px !important;
+    }
+
+    .envdis-card:hover {
+        transform: scale(1.03) !important;
+    }
+
+    .carusel-button {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .pagination__button {
+        width: 8px !important;
+        height: 8px !important;
+    }
+}
+
+
+@media (max-width: 560px) {
+    .main-title {
+        font-size: 60px !important;
+    }
+
+    .menu-list,
+    .header-menu {
+        display: grid !important;
+        justify-content: center !important;
+    }
+
+    .menu-list li {
+        margin: 0 auto;
+
+    }
+
+    .envrdiss-title {
+        font-size: 54px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .envdis-descr {
+        padding-bottom: 0px !important;
+        font-size: 18px !important;
+    }
+    .envrdiss-title {
+        font-size: 48px !important;
+    }
+    .envdis-card {
+        height: 434px !important;
+        width: 273.2px !important;
+    }
+
+    .envdis-card:hover {
+        transform: scale(1.03) !important;
+    }
+
+    .carusel-button {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .pagination__button {
+        width: 8px !important;
+        height: 8px !important;
+    }
+}
+
+@media (max-width: 590px) {
+    .header-menu {
+        display: none !important;
+    }
+
+    .menu_btn {
+        visibility: visible !important;
+    }
+
+    .navbar-burger {
+        display: grid !important;
+    }
+
+    #menu-toggle:checked~.menu_btn {
+        margin-left: 30px;
+    }
+
+    #menu-toggle:checked~.header-menu {
+        display: grid !important;
+        width: 100%;
+        text-align: center;
+        margin: 20px -50% -165px;
+        gap: 0;
+
+    }
+
+    #menu-toggle:checked~.header-menu li {
+        visibility: visible;
+        margin: 0 auto;
+        width: 160px;
+        background-color: black;
+        padding: 5px 10px;
+        z-index: 1;
+    }
+
+    .header-nav a {
+        max-width: 60%;
+    }
+
+    .header-menu li a {
+        font-size: 18px !important;
+    }
+}
+
+@media (max-width: 415px) {
+    .envrdiss-title {
+        font-size: 36px !important;
+    }
+    .body,
+    .header-menu li a,
+    .menu-item {
+        font-size: 14px !important;
+    }
+    .envdis-card { 
+        height: 300px !important;
+        width: 90% !important;
+        margin-left: 1% !important;
+    }
+    .envdis-title {
+        font-size: 20px !important;
+
+    }
+}
+@media (max-width: 360px) {
+    .envdis-card { 
+        padding: 8px !important;
+        
+    }
+}
+
+@media (max-width: 280px) {
+    .header-nav>a {
+        max-width: 90px !important;
+    }
+
+    .envrdiss-title {
+        font-size: 28px !important;
+        padding: 0 !important;
+    }
+
+    .envdis-descr {
+        font-size: 12px !important;
+    }
+
+    /* .swiper-wrapper {
+        padding-top: 50px !important;
+        padding-bottom: 30px !important;
+        margin: 0;
+        padding-left: 40px !important;
+    } */
+
+    .envdis-card {
+        /* padding-right:20px !important; */
+        height: 235px !important;
+        width: 90% !important;
+    }
+
+    .envdis-card:hover {
+        transform: scale(1.03) !important;
+    }
+
+    .carusel-button {
+        width: 15px !important;
+        height: 15px !important;
+    }
+
+
+    .pagination__button {
+        width: 4px !important;
+        height: 4px !important;
+    }
+
+    /* .envdis-content {
+        padding: 10px 10px !important;
+    } */
+
+    .envdis-title {
+        text-align: center !important;
+        font-size: 20px !important;
+    }
+
+    .envdis-text {
+        text-align: left !important;
+        font-size: 12px !important;
+    }
+
+}

@@ -1,0 +1,68 @@
+li {
+    width: fit-content;
+}
+
+.navbar-burger {
+    display: none;
+    width: 75px !important;
+    margin: -10px 0 0;
+    width: fit-content;
+    align-content: center;
+}
+.flex {
+    display: flex;
+}
+.navbar-burger .header-menu {
+    visibility: hidden;
+}
+
+.menu_btn {
+    width: 30px;
+    height: 0px;
+    z-index: 1;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.menu_btn>span, 
+.menu_btn>span::before,
+.menu_btn>span::after {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    transition-duration: 0.3s;
+}
+.phone_wrap {
+align-items: flex-start;
+}
+/* line up */
+.menu_btn>span::before {
+    content: " ";
+    top:-8px;
+}
+/* line doun */
+.menu_btn>span::after {
+    content: " ";
+    top:8px;
+}
+#menu-toggle {
+    opacity: 0;
+}
+/* !Rules of activation */
+#menu-toggle:checked ~ .menu_btn > span{
+    transform: rotate(45deg);
+    background-color: white;
+}
+#menu-toggle:checked ~ .menu_btn > span::before {
+    top:0;
+    transform: rotate(0);
+    background-color:  white;
+
+}
+#menu-toggle:checked ~ .menu_btn > span::after {
+    top:0;
+    transform: rotate(90deg);
+    background-color:  white;
+
+}

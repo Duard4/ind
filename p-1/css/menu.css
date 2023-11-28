@@ -8,13 +8,19 @@ body {
     margin: 0;
 }
 
+
 .container {
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 24px;
 }
-
+.container-f {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15%;
+}
 .section {
     padding: 120px 0;
 }
@@ -39,28 +45,26 @@ body {
 }
 
 .header-container {
-
     display: flex;
-    align-items: center;
-    gap: 76px;
+    flex-wrap: wrap;
 }
-
 .header-nav {
-    margin: 0 100px;
+    margin: 0 5%;
     display: flex;
     align-items: center;
     flex-grow: 1;
-    gap: 552px;
+    justify-content: space-between;
 }
 
 
 .header-menu {
     display: flex;
-    gap: 60px;
+    max-width: 35%;
+    
     /*відстань між елементами */
     flex-grow: 1;
     /*розстягнення по простору*/
-    justify-content: center;
+    justify-content: space-between;
     /*вирівнювання Bздовж Ох*/
     font-family: "Libre Caslon Display";
 
@@ -69,18 +73,16 @@ body {
 .menu-section {
     padding: 16px 0;
     background-color: var(--color-menu-bg);
-    border: 3px solid #473581;
-    border-left: 0;
-    border-right: 0;
+    border-top: 3px solid #473581;
+    border-bottom:3px solid #473581; ;
+
 
 }
 
 .menu-list {
     display: flex;
     justify-content: space-between;
-    gap: 160px;
     /* margin:0 auto 80px; */
-    position: relative;
 }
 
 

@@ -10,12 +10,11 @@ body {
 
 .container {
     width: 100%;
-    
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 24px;
-
 }
+
 .container-f {
     width: 100%;
     max-width: 1440px;
@@ -39,13 +38,17 @@ body {
 
 .header {
     background-color: var(--color-menu-bg);
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     padding: 0 0;
 }
 
-
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+}
 .header-nav {
     margin: 0 5%;
     display: flex;
@@ -58,11 +61,11 @@ body {
 .header-menu {
     display: flex;
     max-width: 35%;
-    gap: 15%;
+    
     /*відстань між елементами */
     flex-grow: 1;
     /*розстягнення по простору*/
-    justify-content: center;
+    justify-content: space-between;
     /*вирівнювання Bздовж Ох*/
     font-family: "Libre Caslon Display";
 
@@ -70,8 +73,6 @@ body {
 /*menu-section*/
 .menu-section {
     padding: 16px 0;
-    display: flex;
-
     background-color: var(--color-menu-bg);
     border-top: 3px solid #473581;
 

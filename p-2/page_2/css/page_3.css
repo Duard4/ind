@@ -1,0 +1,163 @@
+@import url(reset.css);
+@import url(base.css);
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Libre+Caslon+Display&display=swap');
+@import url(media.css);
+@import url(burger.css);
+@import url(menu.css);
+
+
+
+/*Environmental  Disasters-section*/
+.envdis-section{
+    padding: 15% 0;
+    background-repeat: no-repeat;
+    background-image: url("../img/page3.jpg");
+    background-position: center top;
+    background-size: cover;
+    text-align: center;
+}
+.envrdiss-title{
+    text-align: center;
+    font-size: 64px;
+}
+
+.envdis-descr{
+        width: 80%;
+        margin: 2% auto;
+        color:var(--color-text-descr);
+        font-family: "Lancelot";
+        font-size: 24px;
+        text-align: center;
+        padding-top: 5%;
+
+        padding-bottom: 5%;
+}
+.envdis-card {
+    margin: 0 auto;
+}
+.envrdiss-container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-basis: ((100%-348)/3);
+}
+
+.swiper-wrapper{
+    padding: 2%;
+    /* margin-right: 1%; */
+}
+
+.envdis-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 444px;
+    width: 90%;
+    max-width: 349px;
+    background: var(--color-card);
+    padding: 24px;
+    border: 1px solid;
+    border-radius: 16px;
+    transition: transform 0.3s;
+}
+
+.envdis-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.envdis-content {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+    padding: 3%;
+    padding-top: 10%;
+    background: transparent; /* Set initial background to transparent */
+}
+
+.envdis-card:hover .envdis-content {
+    background: var(--color-addbglinear); /* Apply background only on parent hover */
+}
+
+.envdis-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+    visibility: hidden;
+    z-index: -1;
+}
+
+.envdis-card:hover .envdis-image {
+    visibility: visible;
+}
+
+.envdis-title{
+    font-size:32px ;
+    font-weight: 400;
+}
+
+.envdis-text{
+    padding-top:5% ;
+    font-size:20px ;
+    font-weight:400;
+    text-decoration: solid;
+    line-height: normal;
+    color:var(--color-add-header);
+    margin: auto 0;
+}
+
+/*carusel button*/
+
+.pagination{
+    display: flex;
+    justify-content: center ;
+    gap: 24px;
+}
+
+.pagination__button{
+    background-color: var(--color-button-hover);
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.pagination__button--active{
+    background-color: var(--color-menu);
+}
+.carusel-button{
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+background-color:transparent;
+border: 1px solid var(--color-add-header);
+background-color: var(--color-menu);
+padding: 0;
+width: 44px;
+height: 44px;
+cursor: pointer;
+flex-shrink: 0;
+right:0;
+}
+
+
+
+.carusel-arrow:hover{
+    border-radius: 50%;
+    background-color: var(--color-menu);
+    }
+
+.carusel-button:hover{
+    background-color:var(--color-button-hover);
+    }
+    
+   
+    
+  
